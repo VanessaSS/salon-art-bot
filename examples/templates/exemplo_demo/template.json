@@ -1,0 +1,68 @@
+{
+  "id": "exemplo_demo",
+  "background": "background.png",
+  "name": "EXEMPLO – modelo demonstrativo",
+  "hidden": true,
+  "description": "Modelo sintético só para testes do motor.",
+  "canvas": {
+    "width": 1080,
+    "height": 1350
+  },
+  "photos": [
+    {
+      "id": "foto_principal",
+      "label": "Foto principal",
+      "x": 100,
+      "y": 310,
+      "width": 880,
+      "height": 560,
+      "fit": "cover",
+      "mask": "rounded",
+      "radius": 30
+    }
+  ],
+  "texts": [
+    {
+      "id": "titulo",
+      "label": "Título",
+      "x": 100,
+      "y": 110,
+      "width": 880,
+      "height": 150,
+      "max_font_size": 84,
+      "min_font_size": 36,
+      "color": "#4A082D",
+      "font": "Lora-Variable.ttf",
+      "max_lines": 2,
+      "max_chars": 60
+    },
+    {
+      "id": "descricao",
+      "label": "Descrição",
+      "x": 100,
+      "y": 910,
+      "width": 880,
+      "height": 230,
+      "max_font_size": 44,
+      "min_font_size": 24,
+      "color": "#39232F",
+      "max_lines": 4,
+      "max_chars": 200,
+      "required": false
+    },
+    {
+      "id": "chamada",
+      "label": "Chamada para agendamento",
+      "x": 160,
+      "y": 1180,
+      "width": 760,
+      "height": 70,
+      "max_font_size": 38,
+      "min_font_size": 22,
+      "color": "#FFFFFF",
+      "font": "Poppins-Bold.ttf",
+      "max_chars": 50
+    }
+  ],
+  "overlay": "overlay.png"
+}

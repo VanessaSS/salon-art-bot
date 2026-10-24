@@ -1,0 +1,14 @@
+# segredos e ambiente
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# artes geradas
+output/*
+!output/.gitkeep
+
+# modelos REAIS da marca (logo, telefone, endereço): ficam só na máquina/servidor, nunca no repositório
+/templates/

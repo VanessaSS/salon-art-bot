@@ -1,0 +1,46 @@
+{
+  "type": "carousel",
+  "id": "exemplo_carrossel",
+  "name": "Exemplo – Carrossel antes e depois",
+  "description": "Carrossel de 3 imagens: antes, depois e o convite para agendar.",
+  "photos": [
+    {
+      "id": "antes",
+      "label": "Foto ANTES"
+    },
+    {
+      "id": "depois",
+      "label": "Foto DEPOIS"
+    }
+  ],
+  "texts": [
+    {
+      "id": "servico",
+      "label": "Qual serviço foi feito? (ex.: Corte)",
+      "max_chars": 40
+    }
+  ],
+  "slides": [
+    {
+      "template": "exemplo_slide_antes",
+      "photos": {
+        "foto": "antes"
+      },
+      "texts": {
+        "servico": "servico"
+      }
+    },
+    {
+      "template": "exemplo_slide_depois",
+      "photos": {
+        "foto": "depois"
+      },
+      "texts": {
+        "servico": "servico"
+      }
+    },
+    {
+      "static": "cta.png"
+    }
+  ]
+}

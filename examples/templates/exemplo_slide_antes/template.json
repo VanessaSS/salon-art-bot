@@ -1,0 +1,42 @@
+{
+  "id": "exemplo_slide_antes",
+  "background": "background.png",
+  "name": "Exemplo – Slide antes",
+  "description": "Uso interno do carrossel.",
+  "hidden": true,
+  "canvas": {
+    "width": 1080,
+    "height": 1350
+  },
+  "photos": [
+    {
+      "id": "foto",
+      "label": "Foto ANTES",
+      "x": 52,
+      "y": 207,
+      "width": 976,
+      "height": 976,
+      "fit": "cover",
+      "mask": "rounded",
+      "radius": 51
+    }
+  ],
+  "texts": [
+    {
+      "id": "servico",
+      "label": "Qual serviço foi feito? (ex.: Corte)",
+      "x": 52,
+      "y": 1195,
+      "width": 976,
+      "height": 70,
+      "max_font_size": 50,
+      "min_font_size": 30,
+      "color": "#4D1439",
+      "font": "Lora-Variable.ttf",
+      "font_variation": "Bold",
+      "max_lines": 1,
+      "max_chars": 40
+    }
+  ],
+  "overlay": "overlay.png"
+}

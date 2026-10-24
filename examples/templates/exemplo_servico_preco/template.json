@@ -1,0 +1,55 @@
+{
+  "id": "exemplo_servico_preco",
+  "background": "background.png",
+  "name": "Exemplo – Serviço com preço",
+  "description": "Story com uma foto, título, selo de preço e chamada para agendar.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "photos": [
+    {
+      "id": "foto",
+      "label": "Foto do serviço",
+      "x": 232,
+      "y": 412,
+      "width": 616,
+      "height": 816,
+      "fit": "cover",
+      "mask": "rounded",
+      "radius": 59
+    }
+  ],
+  "texts": [
+    {
+      "id": "titulo",
+      "label": "Título (ex.: Escova blindada e modelada)",
+      "x": 232,
+      "y": 1250,
+      "width": 616,
+      "height": 172,
+      "max_font_size": 68,
+      "min_font_size": 38,
+      "color": "#4D1439",
+      "font": "Lora-Variable.ttf",
+      "font_variation": "Bold",
+      "max_lines": 2,
+      "line_spacing": 0.93,
+      "max_chars": 50
+    },
+    {
+      "id": "preco",
+      "label": "Preço (ex.: R$ 70)",
+      "x": 745,
+      "y": 1094,
+      "width": 149,
+      "height": 71,
+      "max_font_size": 44,
+      "min_font_size": 24,
+      "color": "#FFFFFF",
+      "font": "Poppins-Bold.ttf",
+      "max_chars": 10
+    }
+  ],
+  "overlay": "overlay.png"
+}

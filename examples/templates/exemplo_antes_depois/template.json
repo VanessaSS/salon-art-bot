@@ -1,0 +1,50 @@
+{
+  "id": "exemplo_antes_depois",
+  "background": "background.png",
+  "name": "Exemplo – Antes e depois",
+  "description": "Story com duas fotos lado a lado e o serviço realizado.",
+  "canvas": {
+    "width": 1080,
+    "height": 1920
+  },
+  "photos": [
+    {
+      "id": "antes",
+      "label": "Foto ANTES",
+      "x": 32,
+      "y": 682,
+      "width": 506,
+      "height": 556,
+      "fit": "cover",
+      "mask": "rounded",
+      "radius": 47
+    },
+    {
+      "id": "depois",
+      "label": "Foto DEPOIS",
+      "x": 542,
+      "y": 682,
+      "width": 506,
+      "height": 556,
+      "fit": "cover",
+      "mask": "rounded",
+      "radius": 47
+    }
+  ],
+  "texts": [
+    {
+      "id": "servico",
+      "label": "Qual serviço foi feito? (ex.: Corte)",
+      "x": 32,
+      "y": 560,
+      "width": 1016,
+      "height": 80,
+      "max_font_size": 44,
+      "min_font_size": 26,
+      "color": "#9E2160",
+      "max_lines": 1,
+      "max_chars": 40
+    }
+  ],
+  "overlay": "overlay.png"
+}
